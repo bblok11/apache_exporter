@@ -1,0 +1,32 @@
+{
+  "name": "apache-exporter",
+  "version": "0.1.0",
+  "description": "Prometheus Apache exporter",
+  "main": "apache_exporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bblok11/apache_exporter.git"
+  },
+  "keywords": [
+    "prometheus",
+    "apache",
+    "exporter"
+  ],
+  "author": "Bart Blok",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bblok11/apache_exporter/issues"
+  },
+  "homepage": "https://github.com/bblok11/apache_exporter#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "express": "^4.13.4",
+    "prometheus-client": "^0.1.1",
+    "request": "^2.69.0",
+    "underscore": "^1.8.3",
+    "yargs": "^3.32.0"
+  }
+}
